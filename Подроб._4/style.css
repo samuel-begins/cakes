@@ -1,0 +1,84 @@
+.header{
+    background: linear-gradient(rgb(118, 244, 118),rgb(103, 245, 103) );
+    width: 100%;
+    height: 190px;
+    z-index: 100;
+    margin-top: -23px;
+    margin-left: -9px;
+  }
+
+  
+  
+
+  
+  .Heading{
+    background: linear-gradient(Red , Orange ,Yellow,Green,lightBlue,blue,Purple);
+    border: 3px solid black;
+  }
+  
+  
+  .Entrance{
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 23px;
+    background: linear-gradient(Crimson,pink)
+  }   
+  .Aboutus{
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 23px;
+    background: linear-gradient(Crimson,pink)
+  }
+  .Catalog{
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 23px;
+    background: linear-gradient(Crimson,pink)
+  }
+  .Tofind{
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 23px;
+    background: linear-gradient(Crimson,pink)
+  }
+  .Horizontally{
+    display: flex;
+    flex-wrap: nowrap;
+    
+  }
+  
+
+
+ .img{
+    height: 350px;
+    width: 400px;
+    margin-top: 35px;
+    margin-left: 485px;
+    border: 5px solid black;
+    border-radius: 15px 15px 15px;
+ }
+
+ .text_1{
+  color: red;
+ }
+  
+
+
+
+
+
+ @media (max-width:1024px) {
+  main{
+      grid-template-columns: 120px 1fr 120px;
+  }
+}
+@media (max-width:768px) {
+  main{
+      grid-template-columns: 120px 1fr 120px;
+  }
+}
+@media (max-width:320px) {
+  main{
+      grid-template-columns: 120px 1fr 120px;
+  }
+}

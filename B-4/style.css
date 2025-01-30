@@ -1,0 +1,139 @@
+.header{
+  background: linear-gradient(rgb(118, 244, 118),rgb(103, 245, 103) );
+    width: 100%;
+    height: 190px;
+    z-index: 100;
+    margin-top: -23px;
+    margin-left: -9px;
+  }
+  
+
+  
+  .Heading{
+    background: linear-gradient(Red , Orange ,Yellow,Green,lightBlue,blue,Purple);
+    border: 3px solid black;
+  }
+  
+  
+  .Entrance{
+    padding: 10px;
+   margin-left: 10px;
+    margin-top: 23px;
+    background: linear-gradient(Crimson,pink)
+  }
+  .Aboutus{
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 23px;
+    background: linear-gradient(Crimson,pink)
+  }
+  .Catalog{
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 23px;
+    background: linear-gradient(Crimson,pink)
+  }
+  .Tofind{
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 23px;
+    background: linear-gradient(Crimson,pink)
+  }
+  .Horizontally{
+    display: flex;
+    flex-wrap: nowrap;
+    
+  }
+  
+  
+.foto{
+  height: 310px;
+  width: 410px;
+  box-shadow: 10px 10px 10px 10px gray ;
+  border: 3px solid lightblue;
+  margin-top: 25px;
+  margin-left: 500px;
+}
+.foto_2{
+  margin-left: 500px;
+}
+
+
+.text_1{
+  background: linear-gradient(red, crimson);
+  color: White;
+  width: 350px;
+  border: 5px solid darkred;
+   margin-top: 0px;
+   margin-left: 525px;
+}
+.text_2{
+  background: linear-gradient(red, crimson);
+  color: White;
+  width: 350px;
+  border: 5px solid darkred;
+   margin-top: 0px;
+   margin-left: 525px;
+}
+.text_3{
+  background: linear-gradient(red, crimson);
+  color: White;
+  width: 350px;
+  border: 5px solid darkred;
+   margin-top: 0px;
+   margin-left: 525px;
+}
+
+
+
+
+.img_0{
+  width: 200px;
+  height: 150px;
+  border: 3px solid black;                           /*background: linear-gradient(Crimson,pink); - немогу применить к фото-логотипу...*/
+  border-radius: 50px 50px 50px;
+  margin-left: 870px;
+  margin-top: -45px;
+  } 
+
+
+
+  
+
+@media (max-width:1024px) {
+  main{
+      grid-template-columns: 120px 1fr 120px;
+  }
+}
+@media (max-width:768px) {
+  main{
+      grid-template-columns: 120px 1fr 120px;
+  }
+}
+@media (max-width:320px) {
+  main{
+      grid-template-columns: 120px 1fr 120px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

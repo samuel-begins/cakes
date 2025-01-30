@@ -1,0 +1,362 @@
+.header{
+  background: linear-gradient(rgb(118, 244, 118),rgb(103, 245, 103) );
+  width: 100%;
+  height: 190px;
+  z-index: 100;
+  margin-top: -23px;
+  margin-left: -9px;
+}
+
+
+
+.Heading{
+  background: linear-gradient(Red , Orange ,Yellow,Green,lightBlue,blue,Purple);
+  border: 3px solid black;
+}
+
+
+.Entrance{
+  padding: 10px;
+  margin-left: 10px;
+   margin-top: 23px;
+   background: linear-gradient(Crimson,pink)
+}
+.Aboutus{
+  padding: 10px;
+  margin-left: 10px;
+   margin-top: 23px;
+   background: linear-gradient(Crimson,pink)
+}
+.Catalog{
+  padding: 10px;
+  margin-left: 10px;
+   margin-top: 23px;
+   background: linear-gradient(Crimson,pink)
+}
+.Tofind{
+  padding: 10px;
+  margin-left: 10px;
+   margin-top: 23px;
+   background: linear-gradient(Crimson,pink)
+}
+.Horizontally{
+  display: flex;
+  flex-wrap: nowrap;
+  
+}
+.Registration{
+  padding: 10px;
+  margin-left: 10px;
+   margin-top: 23px;
+   background: linear-gradient(purple,pink)
+}
+
+
+.email{
+  margin-top: 30px;
+  width: 450px;
+  height: 25px;
+}
+
+
+label {
+  width: 1150px;
+  display: block;
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+}
+input,
+label {
+  margin: 0.4rem 0;
+}
+.name_1{
+  width: 750px;
+  height: 50px;
+  margin-left: 300px;
+    margin-top: 55px;
+    background-color: lightgreen;
+}
+
+label {
+  display: block;
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+}
+input,
+label {
+  margin: 0.4rem 0;
+}
+
+.name_2{
+  width: 750px;
+  height: 50px;
+  margin-left: 300px;
+    margin-top: 35px;
+    background-color: lightgreen;
+}
+
+.password{
+  width: 750px;
+  height: 50px;
+  margin-left: 300px;
+    margin-top: 35px;
+    background-color: lightgreen;
+}
+
+label {
+  display: block;
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+}
+input,
+label {
+  margin: 0.4rem 0;
+  width: 450px;
+  height: 25px;
+  
+}
+
+
+.e{
+  margin-left: 300px;
+    margin-top: 25px;
+}
+.n{
+  margin-left: 300px;
+  margin-top: 25px;
+}
+.p{
+  margin-left: 300px;
+  margin-top: 35px;
+}
+.a{
+  margin-left: 300px;
+  margin-top: 35px;
+}
+
+
+.Vxod{
+  margin-left: 615px;
+    margin-top: 35px;
+    height: 35px;
+    width: 100px;
+    background-color: lightgreen;
+}
+
+
+
+
+.img_0{
+  width: 200px;
+  height: 150px;
+  border: 3px solid black;                           /*background: linear-gradient(Crimson,pink); - немогу применить к фото-логотипу...*/
+  border-radius: 50px 50px 50px;
+  margin-left: 870px;
+  margin-top: -45px;
+  } 
+
+
+
+  label {
+    display: block;
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+      
+  }
+  input,
+  label {
+    margin: 0.4rem 0;
+  }
+
+  .tel{
+    margin-left: 300px;
+    margin-top: 25px;
+  }
+ .phone{
+  width: 750px;
+  height: 50px;
+  margin-left: 300px;
+    margin-top: 35px;
+    background-color: lightgreen;
+}
+ 
+
+
+ .surname{
+  margin-left: 300px;
+  margin-top: 25px;
+ }
+ .surnames{
+  width: 750px;
+  height: 50px;
+  margin-left: 300px;
+    margin-top: 35px;
+    background-color: lightgreen;
+ }
+
+
+
+ p,
+ label {
+   font:
+   1rem 'Fira Sans',
+     sans-serif;
+   
+ }
+ input {
+  margin: 0.4rem;
+ 
+ }
+ 
+
+
+
+
+
+@media (max-width:1024px) {
+  .adaptive{
+    width: 768px;
+      grid-template-columns: 1fr 280px;
+  }
+}
+@media (max-width:768px) {
+  .adaptive{
+    width: 480px;
+      grid-template-columns: 1fr 250px;
+  }
+}
+@media (max-width:320px) {
+  .adaptive{
+    width: 300px;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-auto-rows: 100px;
+
+  }
+}
+@media (max-width:320px) {
+  .adaptive{
+    width: 100%;
+  }
+}
+@media (max-width:320px) {
+  .header{
+    height: 225px;
+    width: 100%;
+    position: fixed;
+  }
+}
+
+
+
+
+
+
+@media (max-width:320px) {
+  .password{
+    width: 250px;
+    margin-left: 150px;
+    font-size: 4.5vw;
+  }
+}
+@media (max-width:320px) {
+  .p{
+    width: 100px;
+    margin-left: 150px;
+   font-size: 4.5vw;
+  }
+}
+@media (max-width:320px) {
+  .a{
+    width: 100px;
+    margin-left: 150px;
+   font-size: 4.5vw;
+  }
+}
+
+@media (max-width:320px) {
+  .name_1{
+    width: 250px;
+    margin-left: 150px;
+   font-size: 4.5vw;
+  }
+}
+@media (max-width:320px) {
+  .n{
+    margin-top: 100px;
+    width: 100px;
+    margin-left: 150px;
+   font-size: 4.5vw;
+  }
+}
+
+@media (max-width:320px) {
+  .name_2{
+    width: 250px;
+    margin-left: 150px;
+   font-size: 4.5vw;
+  }
+}
+@media (max-width:320px) {
+  .e{
+    width: 100px;
+    margin-left: 150px;
+   font-size: 4.5vw;
+  }
+}
+
+@media (max-width:320px) {
+  .phone{
+    width: 250px;
+    margin-left: 150px;
+   font-size: 4.5vw;
+  }
+}
+@media (max-width:320px) {
+  .tel{
+    width: 100px;
+    margin-left: 150px;
+   font-size: 4.5vw;
+  }
+}
+
+@media (max-width:320px) {
+  .surnames{
+    width: 250px;
+    margin-left: 150px;
+   font-size: 4.5vw;
+  }
+}
+@media (max-width:320px) {
+  .surname{
+    width: 100px;
+    margin-left: 150px;
+   font-size: 4.5vw;
+  }
+}
+
+@media (max-width:320px) {
+  .Vxod{
+    width: 150px;
+    margin-left: 200px;
+   font-size: 4.5vw;
+  }
+}
+
+
+@media (max-width:320px) {
+  .img_0{
+    width: 100px;
+    display: none;
+  
+  }
+}
+
+
+
+
+
